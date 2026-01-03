@@ -1,3 +1,42 @@
 <resources>
-    <string name="app_name">App2</string>
+    <string name="app_name">Pulse</string>
+    <string name="screen_title">Dating + Friends: Product Blueprint</string>
+    <string name="overview_title">Core philosophy (no core feature paywalls)</string>
+    <string name="overview_body">• Dating and Friends are separate apps/spaces but share the same account and subscription.\n• No boosting, no paywalled core features; premium removes ads only.\n• Require meaningful profiles (text is required; photos alone are not enough).\n• Clear onboarding message: ghosting is discouraged and may reduce visibility.</string>
+
+    <string name="registration_title">Registration + identity requirements</string>
+    <string name="registration_body">• Required on sign-up: phone number, first name, last name, birthday, and email.\n• These fields are locked after signup; changes require support approval.\n• 18+ only with verification flow for flagged ages.</string>
+
+    <string name="account_lifecycle_title">Account lifecycle + deletion rules</string>
+    <string name="account_lifecycle_body">• User-initiated deletion blocks re-registration with the same data for 2 weeks.\n• During that window, login shows: “This account has currently scheduled a deletion; the deletion will be done by &lt;date&gt;. Restoring the account will cancel the deletion.”\n• Inactivity: delete accounts inactive for 1 month, allow a 2-week restore window, then delete data permanently.\n• Scheduled-for-deletion accounts are hidden from discovery, chats marked inactive, and new matches disabled.\n• Subscriptions are canceled when an account is deleted.</string>
+
+    <string name="matching_title">Matching rules + anti-ghosting</string>
+    <string name="matching_body">• Matches only happen when both sides explicitly agree.\n• Accepting a request requires writing a message (min 20 chars); this becomes the first chat message.\n• A request expires after 2 weeks.\n• Warning on acceptance: ghosting is discouraged and may reduce match success.\n• Unmatch triggers a 24-hour review window for the other user to flag; chat hides sensitive data in that window.</string>
+
+    <string name="filters_title">Filtering, sorting, and visibility controls</string>
+    <string name="filters_body">• Advanced filters: distance (radius + country/city example), preferences, lifestyle, response rate, account age, etc.\n• Users can define who they are shown to (e.g., only shown to users without kids who want kids).\n• Warning appears once more than 3 non-standard filters are active (age/gender excluded).\n• Default sorting prioritizes users with the lowest views/matches; custom sorting overrides this.\n• Negative swipes add to a hidden block list; resetting it is available periodically (every 6 months).</string>
+
+    <string name="safety_title">Safety, reporting, and privacy</string>
+    <string name="safety_body">• Reporting supports escalating actions (warnings, reviews, bans). Severe reports trigger immediate review.\n• False reporting penalties with recovery rules; good reporting increases daily positives.\n• Personal data (phone/social) can only be shared via mutual request after matching.\n• Chat detection warns when users try to share personal data outside approved flows.\n• Users are informed that reported chats/photos can be reviewed by moderators.</string>
+
+    <string name="ads_title">Ads + subscriptions</string>
+    <string name="ads_body">• Single subscription tier (€0.99–€2.99/month) removes ads. No other premium features are core.\n• Donate 30× the monthly price to request a lifetime subscription. This is goodwill only and can be revoked.\n• Ads are not personalized and exclude gambling, erotic, or dating content.\n• After 10 positive swipes in a day, watching an ad grants +3 positives; ads never show for subscribers.</string>
+
+    <string name="travel_title">Travel mode (premium)</string>
+    <string name="travel_body">• Premium-only feature: browse in a different location with a declared reason (travel/moving).\n• Profile shows travel mode in a distinct color and displays the actual home location.\n• Users can opt out of seeing travel mode profiles.</string>
+
+    <string name="blind_title">Optional blind date mode</string>
+    <string name="blind_body">• Separate text-only profile and space; no media until both agree.\n• Blind mode matches are isolated from standard dating matches.</string>
+
+    <string name="friend_title">Friends app (not dating)</string>
+    <string name="friend_body">• Separate “meet people” space with its own filters and match logic.\n• Supports public events and groups (premium users can create up to 5 groups; everyone can join up to 20).\n• Groups can be filtered by criteria and have topics, dates, and public descriptions.</string>
+
+    <string name="spam_title">Anti-spam &amp; swipe integrity</string>
+    <string name="spam_body">• Throttle swiping if like rate exceeds 80% or swipe rate exceeds X/min (average of last 5 active minutes).\n• Clear warning and 24-hour cooldown; account marked as potential spammer.\n• Mass-declining does not trigger spam rules.</string>
+
+    <string name="admin_title">Admin + moderation portals</string>
+    <string name="admin_body">• Admin portal: DAU/WAU/MAU, active subs, match rate, reports, storage, mod actions.\n• Mod portal: handle category suggestions, billing issues, report/ban reviews, and appeals.\n• Super mod portal: oversee mod actions, staffing recommendations, and escalations.</string>
+
+    <string name="legal_title">Legal + open questions</string>
+    <string name="legal_body">• Legal checklist to confirm: data retention rules, payment record retention, ID verification, and ban data storage limits.\n• Clarify whether a company is required or a private entity can host the service.\n• Lifetime subscription language must confirm it is goodwill and not guaranteed.</string>
 </resources>
